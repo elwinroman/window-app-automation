@@ -115,3 +115,6 @@ examples/wdio/mocha/*.json
 e2e/screenshot.png
 website/community/events
 website/events.json
+
+# Restore wdio.conf.ts to the ignore list
+!wdio.conf.ts
