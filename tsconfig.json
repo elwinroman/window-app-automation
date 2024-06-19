@@ -25,16 +25,11 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "./config",
-    "test",
-    "wdio.conf.ts"
+    "src/**/*.ts",
+    "wdio.conf.ts",
+    "src/**/*.d.ts"
   ],
   "paths": {
-    "@/config": [
-      "config/*"
-    ],
-    "@/test": [
-      "test/specs/*"
-    ],
+    // paths are not supported in this webdriverio version
   }
 }

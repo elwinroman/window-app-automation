@@ -12,6 +12,6 @@
     "typescript": "5.4.5"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts --suite calculator --env-file=.env"
   }
 }
