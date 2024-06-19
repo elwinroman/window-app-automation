@@ -50,7 +50,7 @@ export const config: Options.Testrunner = {
       port: 4723, // Puerto por defecto de Appium
       platformName: 'windows',
       'appium:automationName': 'windows',
-      'appium:app': process.env.WIN_APP_PATH,
+      'appium:app': process.env.APPIUM_APP,
       'appium:noReset': true,
       'appium:newCommandTimeout': 240
     }
