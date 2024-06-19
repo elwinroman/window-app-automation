@@ -20,7 +20,7 @@ export const config: Options.Testrunner = {
   // Define qué especificaciones de prueba deben ejecutarse. El patrón es relativo al directorio
   // del archivo de configuración que se está ejecutando.
   //
-  specs: ['./test/specs/**/*.test.ts'],
+  specs: ['src/test/specs/**/*.test.ts'],
   // specs: [
   //   [
   //     // './test/specs/**/*.ts'
@@ -29,10 +29,7 @@ export const config: Options.Testrunner = {
   //   ]
   // ],
   suites: {
-    calculator: [
-      './test/specs/calculator/multiplicacion.test.ts',
-      './test/specs/calculator/sumas.test.ts'
-    ]
+    calculator: ['src/test/specs/calculator/sumas.test.ts']
   },
   // Patrones para excluir.
   exclude: [
